@@ -1,0 +1,46 @@
+html {
+  font-family: Georgia, serif;
+}
+
+.content {
+  background-color: #495562;
+}
+
+.content h1,
+.content p {
+  color: #fff;
+}
+
+.btn-ghost {
+  color: #fff;
+  border-color: #97a49b;
+}
+
+.btn-ghost:hover {
+  color: #495562;
+  background-color: #efefef;
+  border-color: #efefef;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .content {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(to bottom, transparent, rgba(73, 85, 98, .9));
+    background-color: transparent;
+  }
+
+  .banner {
+    position: relative;
+    overflow: hidden;
+    max-height: 500px;
+  }
+
+  .btn-ghost {
+    border-color: #efefef;
+  }
+
+}
